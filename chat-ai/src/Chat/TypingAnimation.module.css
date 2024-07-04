@@ -1,0 +1,15 @@
+@keyframes typing {
+  0% { opacity: 0.2; }
+  20% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+.typingIndicator {
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #7277c7;
+  animation: typing 1s infinite;
+  margin-right: 2px;
+}
